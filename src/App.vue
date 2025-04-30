@@ -1,5 +1,8 @@
 <template>
-  <h1>Hello world!</h1>
+  <header>
+    Atos Wordcloud
+  </header>
+  <iframe src="https://www.example.com"></iframe>
 </template>
 
 <style scoped>
