@@ -6,6 +6,7 @@
     <img id="header-curves" src="@/assets/header-curves.svg" />
   </header>
   <div id="frame-wrapper" style=''>
+    <img id="menti-qr-code" src="@/assets/mentimeter_qr_code.png" />
       <div id="logo-hider"></div>
       <iframe id="menti-frame" 
         sandbox='allow-scripts allow-same-origin allow-presentation'
@@ -40,6 +41,13 @@
 
   #header-curves {
     max-height: 5em;
+  }
+
+  #menti-qr-code {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    height: 27%;
   }
 
   #logo-hider {
