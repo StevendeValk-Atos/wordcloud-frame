@@ -5,10 +5,7 @@
     </div>
     <img id="header-curves" src="@/assets/header-curves.svg" />
   </header>
-  <div style='
-    position: relative; padding-bottom: 56.25%;
-    padding-top: 35px; height: 0;
-    overflow: hidden;'>
+  <div id="frame-wrapper" style=''>
       <iframe sandbox='allow-scripts allow-same-origin allow-presentation'
         allowfullscreen='true'
         allowtransparency='true'
@@ -43,11 +40,19 @@
     max-height: 5em;
   }
 
-
+  #frame-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin-top: 5em;
+  }
 
   iframe {
     border: 0;
-    height: 100vh;
+    height: 99vh;
     width: 100%;
   }
 </style>
