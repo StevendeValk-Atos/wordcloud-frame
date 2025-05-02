@@ -6,11 +6,11 @@
     <img id="header-curves" src="@/assets/header-curves.svg" />
   </header>
   <div id="frame-wrapper" style=''>
-      <iframe sandbox='allow-scripts allow-same-origin allow-presentation'
+      <iframe id="menti-frame" sandbox='allow-scripts allow-same-origin allow-presentation'
         allowfullscreen='true'
         allowtransparency='true'
         frameborder='0' height='315'
-        src='https://www.mentimeter.com/app/presentation/alh34eyg4xop2ydnwr5gbns6fwerp7iw/embed'
+        src='https://www.mentimeter.com/app/presentation/al2tsd45b619wthff7rpbz7tbrkbhe81/embed'
         style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'>
       </iframe>
       </div>
@@ -50,7 +50,10 @@
     margin-top: 5em;
   }
 
-  iframe {
+  #menti-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
     border: 0;
     height: 99vh;
     width: 100%;
